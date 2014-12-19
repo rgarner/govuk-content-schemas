@@ -32,7 +32,8 @@ private
   def present_example(example)
     headers = {
       'Content-Type' => 'application/json; charset=utf-8',
-      'Content-Length' => example.raw_data.bytesize.to_s
+      'Content-Length' => example.raw_data.bytesize.to_s,
+      'Cache-control' => 'no-cache'
     }
 
     [200, headers, [example.raw_data]]
@@ -42,7 +43,8 @@ private
     body = 'Not found'
     headers = {
       'Content-Type' => 'text/plain',
-      'Content-Length' => body.size.to_s
+      'Content-Length' => body.size.to_s,
+      'Cache-control' => 'no-cache'
     }
     [404, headers, [body]]
   end
@@ -73,11 +75,11 @@ private
     end
 
     def data
-      @data ||= JSON.parse(raw_data)
+      JSON.parse(raw_data)
     end
 
     def raw_data
-      @raw_data ||= File.read(path)
+      File.read(path)
     end
   end
 end
