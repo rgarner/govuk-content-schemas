@@ -1,4 +1,3 @@
-require 'thin'
 require 'pathname'
 require 'json'
 require 'dummy_content_store/example_content_item'
