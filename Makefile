@@ -42,6 +42,6 @@ dist/%/frontend/schema.json: dist/%/publisher/schema.json formats/frontend_links
 	$(frontend_generator_bin) -f formats/frontend_links_definition.json ${@:frontend/schema.json=publisher/schema.json} > ${@}
 
 # Recipe for validating frontend examples (the build target is the `.valid` file)
-dist/%.valid: $(frontend_schemas) %
+dist/%.valid: $(patsubst %/examples/,%/schema.json,$(dir ${@})) ${@:dist/%.valid=%}
 	mkdir -p `dirname ${@}`
-	$(validation_bin) ${@:dist/%.valid=%} && touch ${@}
+	$(validation_bin) --schema $(patsubst %/examples/,%/schema.json,$(dir ${@})) ${@:dist/%.valid=%} && touch ${@}
