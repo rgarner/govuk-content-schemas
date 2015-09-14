@@ -1,0 +1,74 @@
+{
+  "base_path": "/government/organisations/department-x",
+  "title": "Department X",
+  "description": null,
+  "format": "organisation",
+  "need_ids": [],
+  "locale": "en",
+  "updated_at": "2015-08-20T10:26:44.936Z",
+  "public_updated_at": "2015-08-12T09:49:13.000+00:00",
+  "phase": null,
+  "details": {
+    "acronym": "DX",
+    "analytics_identifier": "DX",
+    "court_or_hmcts_tribunal": false,
+    "custom_logo": true,
+    "has_scoped_search": true,
+    "has_services_and_information_link": true,
+    "logo_class": "custom",
+    "logo_url": "http://example.com/example.png",
+    "logo_formatted_name": "Department X",
+    "status": "open",
+    "sub_organisation": true,
+    "featured_links": [
+      {
+        "title": "GOV.UK",
+        "url": "https://www.gov.uk",
+        "external": false
+      },
+      {
+        "title": "Example",
+        "url": "http://example.com",
+        "external": true
+      }
+    ]
+  },
+  "links": {
+    "available_translations": [
+      {
+        "title": "Department X",
+        "base_path": "/government/organisations/department-x",
+        "description": null,
+        "api_url": "https://www.gov.uk/api/content/government/organisations/department-x",
+        "web_url": "https://www.gov.uk/government/organisations/department-x",
+        "locale": "en"
+      },
+      {
+        "title": "Adran X",
+        "base_path": "/government/organisations/department-x.cy",
+        "description": null,
+        "api_url": "https://www.gov.uk/api/content/government/organisations/department-x.cy",
+        "web_url": "https://www.gov.uk/government/organisations/department-x.cy",
+        "locale": "cy"
+      }
+    ],
+    "parent_organisations": [
+      {
+        "title": "Department A",
+        "base_path": "/government/organisations/department-a",
+        "description": null,
+        "api_url": "https://www.gov.uk/api/content/government/organisations/department-a",
+        "web_url": "https://www.gov.uk/government/organisations/department-a",
+        "locale": "en"
+      },
+      {
+        "title": "Department B",
+        "base_path": "/government/organisations/department-b",
+        "description": null,
+        "api_url": "https://www.gov.uk/api/content/government/organisations/department-b",
+        "web_url": "https://www.gov.uk/government/organisations/department-b",
+        "locale": "en"
+      }
+    ]
+  }
+}

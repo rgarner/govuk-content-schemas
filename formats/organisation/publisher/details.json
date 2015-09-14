@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "acronym",
+    "analytics_identifier",
+    "court_or_hmcts_tribunal",
+    "custom_logo",
+    "has_scoped_search",
+    "has_services_and_information_link",
+    "logo_class",
+    "logo_formatted_name",
+    "status",
+    "sub_organisation"
+  ],
+  "properties": {
+    "acronym": {
+      "type": "string"
+    },
+    "analytics_identifier": {
+      "type": "string"
+    },
+    "court_or_hmcts_tribunal": {
+      "type": "boolean"
+    },
+    "custom_logo": {
+      "type": "boolean"
+    },
+    "has_scoped_search": {
+      "type": "boolean"
+    },
+    "has_services_and_information_link": {
+      "type": "boolean"
+    },
+    "logo_class": {
+      "type": "string"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "logo_formatted_name": {
+      "type": "string"
+    },
+    "sub_organisation": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
