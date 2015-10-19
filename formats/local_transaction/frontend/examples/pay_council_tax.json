@@ -1,0 +1,81 @@
+{
+    "base_path": "/pay-council-tax",
+    "content_id": "b7b077e3-e03a-4fea-a6a5-853f145dfcdf",
+    "title": "Pay your Council Tax",
+    "description": "Pay Council Tax online or by other methods, like direct debit to your local council",
+    "format": "local_transaction",
+    "need_ids": [
+
+    ],
+    "locale": "en",
+    "updated_at": "2015-10-07T12:56:44.376Z",
+    "public_updated_at": "2012-05-02T16:27:17.000+00:00",
+    "details": {
+        "providing_tier": ["district", "unitary"],
+        "introduction": "<p>Pay Council Tax online or by other methods such as direct debit.</p>",
+        "need_to_know": " <ul> <li>Available in England and Wales only</li> </ul>",
+        "more_information": "<h2>Major roads</h2>\n <p>Contact Highways England if the pothole is on <a href=\"/government/publications/roads-managed-by-the-highways-agency\">a motorway or an A road they manage in England</a>. </p>\n <div class=\"contact\">\n <p><strong>Highways England</strong>   <br>\n <a href=\"mailto:info@highwaysengland.co.uk\">info@highwaysengland.co.uk</a><br>\n 0300 123 5000  <br>\n 24-hour service \n <a href=\"/call-charges\">Find out about call charges</a></p>\n </div>",
+        "authorities": [
+          {
+            "slug": "hackney",
+            "name": "London Borough of Hackney",
+            "gss_code": "00AM",
+            "snac_code": "XXX",
+            "interaction": {
+                "url": "http://www.hackney.gov.uk/f-council-tax-general-information-57.htm"
+            },
+            "contact": {
+                "url": "http://www.hackney.gov.uk/contact-us.htm",
+                "phone": "020 8356 3000",
+                "address": ["Town Hall", "Mare Street", "London", "E8 1EA"]
+            }
+          },
+          {
+            "slug": "dundee",
+            "name": "Dundee City Council",
+            "snac_code": "00QJ",
+            "contact": {
+                "url": "http://www.dundeecity.gov.uk/supportservs/contactus",
+                "phone": "01382 434 000",
+                "address": ["21 City Square", "Dundee", "DD1 3DB"]
+            }
+          },
+          {
+            "slug": "dundee-1",
+            "name": "Dundee City Council (variation 1)",
+            "snac_code": "00QJ",
+            "contact": {
+                "url": "http://www.dundeecity.gov.uk/supportservs/contactus"
+            }
+          },
+          {
+            "slug": "dundee-2",
+            "name": "Dundee City Council (variation 2)",
+            "snac_code": "00QJ",
+            "contact": {}
+          },
+          {
+            "slug": "dundee-3",
+            "name": "Dundee City Council (variation 3)",
+            "snac_code": "00QJ",
+            "contact": {
+                "phone": "01382 434 000",
+                "address": ["21 City Square", "Dundee", "DD1 3DB"]
+            }
+          }
+        ]
+    },
+    "phase": "live",
+    "analytics_identifier": null,
+    "links": {
+        "available_translations": [{
+            "content_id": "b7b077e3-e03a-4fea-a6a5-853f145dfcdf",
+            "title": "Pay your Council Tax",
+            "base_path": "/pay-council-tax",
+            "description": "Pay Council Tax online or by other methods, like direct debit to your local council",
+            "api_url": "https://www.gov.uk/api/content/pay-council-tax",
+            "web_url": "https://www.gov.uk/pay-council-tax",
+            "locale": "en"
+        }]
+    }
+}
