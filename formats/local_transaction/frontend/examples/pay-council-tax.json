@@ -1,0 +1,30 @@
+{
+    "content_id": "b7b077e3-e03a-4fea-a6a5-853f145dfcdf",
+    "base_path": "/pay-council-tax",
+    "title": "Pay your Council Tax",
+    "description": "Pay Council Tax online or by other methods, like direct debit to your local council",
+    "details": {
+      "introduction": "<p>Pay Council Tax online or by other methods such as direct debit. </p>",
+      "more_information": "",
+      "need_to_know": "",
+      "lgsl_code": 57,
+      "lgil_override": null
+    },
+    "format": "local_transaction",
+    "links": {
+      "available_translations": [
+        {
+          "content_id": "b7b077e3-e03a-4fea-a6a5-853f145dfcdf",
+          "title": "Pay your Council Tax",
+          "base_path": "/pay-council-tax",
+          "api_url": "https://www.gov.uk/api/content/pay-council-tax",
+          "web_url": "https://www.gov.uk/pay-council-tax",
+          "locale": "en"
+        }
+      ]
+    },
+    "locale": "en",
+    "need_ids": ["100227"],
+    "public_updated_at": "2014-11-12T12:26:02+00:00",
+    "updated_at": "2014-11-12T12:28:15+00:00"
+}
