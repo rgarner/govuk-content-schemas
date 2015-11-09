@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["linked_items"],
+  "properties": {
+    "linked_items": {
+      "$ref": "#/definitions/guid_list"
+    }
+  }
+}

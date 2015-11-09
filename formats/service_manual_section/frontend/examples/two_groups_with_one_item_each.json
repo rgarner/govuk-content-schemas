@@ -1,0 +1,83 @@
+{
+  "base_path": "/service-manual/agile-delivery",
+  "content_id": "ab9f43be-0ea9-4a60-a8af-96b7ee349d2b",
+  "title": "Agile delivery",
+  "description": "Agile methods and tools explained, including what assurance and reporting to use.",
+  "format": "service_manual_section",
+  "need_ids": [],
+  "locale": "en",
+  "updated_at": "2015-11-04T12:08:52.000Z",
+  "public_updated_at": "2015-11-04T12:08:52.000+00:00",
+  "details": {
+    "link_groups": [
+      {
+        "title": "Agile and government services",
+        "description": "Why use agile methodology, features of agile, signs of not being agile.",
+        "linked_items": [
+          "c28c2fbf-86f6-4bfb-adaa-1dd20f0a0429",
+          "1a76a03c-4298-459c-827e-38497203e467"
+        ]
+      },
+      {
+       "title": "Agile methods",
+       "description": "Agile ceremonies for planning and reviewing work, including user stories and retrospectives.",
+       "linked_items": [
+          "45eb482c-5328-484b-93d8-684fd87e434e",
+          "adcff8ab-c40d-4f23-b831-f03c35e7a8b0"
+        ]
+      }
+    ]
+  },
+  "phase": "live",
+  "links": {
+    "linked_items": [
+      {
+        "content_id": "c28c2fbf-86f6-4bfb-adaa-1dd20f0a0429",
+        "title": "Agile and government services: an introduction",
+        "base_path": "/service-manual/agile-delivery/agile-and-government-services",
+        "description": "-",
+        "api_url": "https://www.gov.uk/api/content/service-manual/agile-delivery/agile-and-government-services",
+        "web_url": "https://www.gov.uk/service-manual/agile-delivery/agile-and-government-services",
+        "locale": "en"
+      },
+      {
+        "content_id": "1a76a03c-4298-459c-827e-38497203e467",
+        "title": "Agile methodology explained",
+        "base_path": "/service-manual/agile-delivery/agile-methodology-explained",
+        "description": "-",
+        "api_url": "https://www.gov.uk/api/content/service-manual/agile-delivery/agile-methodology-explained",
+        "web_url": "https://www.gov.uk/service-manual/agile-delivery/agile-methodology-explained",
+        "locale": "en"
+      },
+      {
+        "content_id": "45eb482c-5328-484b-93d8-684fd87e434e",
+        "title": "Create an agile working environment",
+        "base_path": "/service-manual/agile-delivery/create-agile-working-environment",
+        "description": "-",
+        "api_url": "https://www.gov.uk/api/content/service-manual/agile-delivery/create-agile-working-environment",
+        "web_url": "https://www.gov.uk/service-manual/agile-delivery/create-agile-working-environment",
+        "locale": "en"
+      },
+      {
+        "content_id": "adcff8ab-c40d-4f23-b831-f03c35e7a8b0",
+        "title": "Agile wall",
+        "base_path": "/service-manual/agile-delivery/the-agile-wall",
+        "description": "-",
+        "api_url": "https://www.gov.uk/api/content/service-manual/agile-delivery/the-agile-wall",
+        "web_url": "https://www.gov.uk/service-manual/agile-delivery/the-agile-wall",
+        "locale": "en"
+      }
+    ],
+    "available_translations": [
+         {
+          "content_id": "ab9f43be-0ea9-4a60-a8af-96b7ee349d2b",
+          "title": "Agile delivery",
+          "base_path": "/service-manual/agile-delivery",
+          "description": "Agile methods and tools explained, including what assurance and reporting to use.",
+          "api_url": "https://www.gov.uk/api/content/service-manual/agile-delivery",
+          "web_url": "https://www.gov.uk/service-manual/agile-delivery",
+          "locale": "en"
+         }
+      ]
+   }
+}
