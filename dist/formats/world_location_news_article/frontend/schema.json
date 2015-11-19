@@ -1,0 +1,290 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "base_path",
+    "content_id",
+    "format",
+    "locale",
+    "public_updated_at"
+  ],
+  "properties": {
+    "base_path": {
+      "$ref": "#/definitions/absolute_path"
+    },
+    "content_id": {
+      "$ref": "#/definitions/guid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "world_location_news_article"
+      ]
+    },
+    "public_updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "need_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "analytics_identifier": {
+      "type": "string"
+    },
+    "phase": {
+      "description": "The service design phase of this content item - https://www.gov.uk/service-manual/phases",
+      "type": "string",
+      "enum": [
+        "alpha",
+        "beta",
+        "live"
+      ]
+    },
+    "details": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "body",
+        "first_public_at"
+      ],
+      "properties": {
+        "body": {
+          "type": "string"
+        },
+        "image": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "alt_text": {
+              "type": "string"
+            },
+            "caption": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "format_display_type": {
+          "type": "string",
+          "enum": [
+            "world_location_news_article"
+          ]
+        },
+        "first_public_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "change_note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "change_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "public_timestamp": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "public_timestamp",
+              "note"
+            ]
+          }
+        },
+        "tags": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "topics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "policies": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "withdrawn_notice": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "explanation": {
+              "type": "string"
+            },
+            "withdrawn_at": {
+              "format": "date-time"
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "world_locations",
+        "worldwide_organisations"
+      ],
+      "properties": {
+        "related_policies": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "supporting_organisations": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "topical_events": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "world_locations": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "worldwide_organisations": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "worldwide_priorities": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "document_collections": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "mainstream_browse_pages": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "topics": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "organisations": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "policies": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "policy_areas": {
+          "$ref": "#/definitions/frontend_links"
+        },
+        "available_translations": {
+          "$ref": "#/definitions/frontend_links"
+        }
+      }
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "definitions": {
+    "absolute_path": {
+      "type": "string",
+      "pattern": "^/(([a-zA-Z0-9._~!$&'()*+,;=:@-]|%[0-9a-fA-F]{2})+(/([a-zA-Z0-9._~!$&'()*+,;=:@-]|%[0-9a-fA-F]{2})*)*)?$",
+      "description": "A path only. Query string and/or fragment are not allowed."
+    },
+    "guid": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{8}-[a-f0-9]{4}-[1-5][a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$"
+    },
+    "guid_list": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/guid"
+      }
+    },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "type"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "prefix",
+            "exact"
+          ]
+        }
+      }
+    },
+    "frontend_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "content_id",
+          "title",
+          "base_path",
+          "locale"
+        ],
+        "properties": {
+          "content_id": {
+            "$ref": "#/definitions/guid"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "base_path": {
+            "$ref": "#/definitions/absolute_path"
+          },
+          "api_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "web_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "locale": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "world_locations",
+    "worldwide_organisations"
+  ],
+  "properties": {
+    "related_policies": {
+      "$ref": "#/definitions/guid_list"
+    },
+    "supporting_organisations": {
+      "$ref": "#/definitions/guid_list"
+    },
+    "topical_events": {
+      "$ref": "#/definitions/guid_list"
+    },
+    "world_locations": {
+      "$ref": "#/definitions/guid_list"
+    },
+    "worldwide_organisations": {
+      "$ref": "#/definitions/guid_list"
+    },
+    "worldwide_priorities": {
+      "$ref": "#/definitions/guid_list"
+    },
+    "document_collections": {
+      "$ref": "#/definitions/guid_list"
+    }
+  }
+}

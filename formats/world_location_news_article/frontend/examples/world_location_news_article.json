@@ -1,0 +1,60 @@
+{
+  "base_path": "/government/world-location-news/changes-to-the-uks-visa-service",
+  "content_id": "282e6988-16b3-45b4-ad75-529914217618",
+  "title": "Changes to the UK's visa service",
+  "description": "The UK government has announced a series of amendments to its immigration rules, Most of the changes will begin to come into effect in April 2015",
+  "format": "world_location_news_article",
+  "need_ids": [],
+  "locale": "en",
+  "updated_at": "2015-03-25T08:40:11.183Z",
+  "public_updated_at": "2015-03-25T08:32:00.000+00:00",
+  "details": {
+    "body": "<div class=\"govspeak\"><h2 id=\"new-rules-for-visa-applicants\">New rules for visa applicants</h2><p>The UK government has announced a series of amendments to its immigration rules, which will change some of the existing processes for applying for a visa from outside of the UK. The changes aim to ensure that the UK is open for business, while tightening some of the visa routes which were open to misuse in the past. Most of the changes will begin to come into effect in April 2015.</p><h3 id=\"changes-for-tourists-and-short-term-visitors\">Changes for tourists and short term visitors</h3><p>From April, the UK will introduce a simplified visit visa system for those wishing to visit on a short trip. Currently, there are 15 different types of visit visa available to short-term visitors. The change will see this number brought down to just four visa types, making it easier for travellers to understand which visa to apply for.</p><p>The new easier-to-understand range of visitor routes and visit visas will also be accompanied by revised and shortened user-friendly Immigration Rules and guidance to make the system for people visiting Britain clearer to applicants. The requirements for entering the UK will be the same, but rules and guidance are being simplified to help applicants avoid unwittingly fall foul of the UK’s Immigration Rules. </p><p>The student visitor route will also be rebranded into a new short-term study route for those whose main purpose is to study short courses.  There will be no changes to the entry requirements for these people.</p><h4 id=\"introduction-of-health-surcharge\">Introduction of health surcharge</h4><p>From  6 April all non-European Economic Area (EEA) nationals who apply to go to the UK to work, study or join family for a period of more than 6 months will need to pay a health surcharge. The surcharge will be set at £150 per year for students and £200 per year for all other temporary visa and immigration applications made overseas and in the UK. Those who have paid the surcharge or are exempt will be able to access the National Health Service (NHS) in the same way as a permanent UK resident. Read more <a href=\"https://www.gov.uk/government/news/migrant-health-surcharge-to-raise-200-million-a-year\">here</a></p><h3 id=\"biometric-residence-permits\">Biometric Residence Permits</h3><p>In line with European regulations, the UK will introduce <a href=\"https://www.gov.uk/government/publications/biometric-residence-permits-overseas-applicant-and-sponsor-information\">biometric residence permits</a> for those applying to settle in the UK, as well as students and workers applying for a longer stay visa.  Applicants will receive a 30 day ‘vignette sticker’ in their passport instead of a vignette with the full grant of leave. Applicants will be required to collect their permit from a post office within ten days of arrival in the UK. The card can then be used as proof of right to work, study and access public services in the UK. It will also need to be presented when travelling in and out of the UK, along with a valid travel document, such as a passport. Biometric Resident Permits will roll out across the world during 2015. </p><h3 id=\"secure-english-language-test-providers\">Secure English Language test providers</h3><p>From 6 April, those who are required to take a secure English language test (SELT) as part of their visa application; primarily students and those wishing to settle in the UK will need to use a new test provider. Two new providers have been selected to deliver SELTs and will replace current providers from 6 April 2015. The two new test providers are IELTS Secure English Language Testing Consortia (for visa customers applying outside or inside the UK) and Trinity College London (for customers applying in the UK only). Further information for customers located outside the UK on how to book a test will be available on the IELTS website later this month</p><h3 id=\"changes-for-business-and-work\">Changes for business and work</h3><p>A number of changes will be made to the Tier 1 and 2 business and work visa routes. These include waiving the Tier 2 ‘cooling-off period’ for short-term grants of 3 months or less, giving firms the ability to sponsor interns and bring them back to the UK for a permanent job within a year. This change will also help global firms who need to send some staff to the UK for short periods each year. </p></div>",
+    "change_note": null,
+    "first_public_at": "2012-12-17T15:45:44+00:00",
+    "image": {
+        "alt_text": "Carlisle Park",
+        "caption": "Carlisle Park",
+        "url": "http://static.dev.gov.uk/government/uploads/system/uploads/image_data/file/5693/s300_Carlisle_Park_1_960x640.jpg"
+    },
+    "tags": {
+        "topics": [],
+        "policies": []
+    },
+    "format_display_type":"world_location_news_article"
+  },
+  "phase": "live",
+  "links": {
+    "world_locations": [
+      {
+        "content_id": "456af51f-5fd3-4855-8a33-52cb32ff9985",
+        "title": "Pakistan",
+        "base_path": "/government/world/pakistan",
+        "api_url": "https://www.gov.uk/api/content/government/world/pakistan",
+        "web_url": "https://www.gov.uk/government/world/pakistan",
+        "locale": "en"
+      }
+    ],
+    "worldwide_organisations": [
+      {
+        "content_id": "f1ec569a-3471-4de0-947c-a4f3bcccb983",
+        "title": "DFID Pakistan",
+        "base_path": "/government/world/organisations/dfid-pakistan",
+        "api_url": "https://www.gov.uk/api/content/government/world/organisations/dfid-pakistan",
+        "web_url": "https://www.gov.uk/government/world/organisations/dfid-pakistan",
+        "locale": "en"
+      }
+    ],
+    "available_translations": [
+      {
+        "content_id": "282e6988-16b3-45b4-ad75-529914217618",
+        "title": "Changes to the UK's visa service",
+        "base_path": "/government/world-location-news/changes-to-the-uks-visa-service",
+        "description": "The UK government has announced a series of amendments to its immigration rules, Most of the changes will begin to come into effect in April 2015",
+        "api_url": "https://www.gov.uk/api/content/government/world-location-news/changes-to-the-uks-visa-service",
+        "web_url": "https://www.gov.uk/government/world-location-news/changes-to-the-uks-visa-service",
+        "locale": "en"
+      }
+    ]
+  }
+}
