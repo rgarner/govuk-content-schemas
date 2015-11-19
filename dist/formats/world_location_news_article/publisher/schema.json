@@ -102,7 +102,10 @@
       "additionalProperties": false,
       "required": [
         "body",
-        "first_public_at"
+        "first_public_at",
+        "is_political",
+        "is_historic",
+        "government_name"
       ],
       "properties": {
         "body": {
@@ -200,6 +203,15 @@
               "format": "date-time"
             }
           }
+        },
+        "is_political": {
+          "type": "boolean"
+        },
+        "is_historic": {
+          "type": "boolean"
+        },
+        "government_name": {
+          "type": "string"
         }
       }
     },

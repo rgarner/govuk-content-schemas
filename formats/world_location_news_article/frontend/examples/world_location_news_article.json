@@ -21,6 +21,9 @@
         "topics": [],
         "policies": []
     },
+    "government_name": "dfsdf",
+    "is_political": true,
+    "is_historic": true,
     "format_display_type":"world_location_news_article"
   },
   "phase": "live",
