@@ -39,7 +39,7 @@ private
 
   def required_properties
     return [] unless @publisher_schema.schema.has_key?('required')
-    ['base_path'] + (@publisher_schema.schema['required'] - INTERNAL_PROPERTIES)
+    @publisher_schema.schema['required'] - INTERNAL_PROPERTIES
   end
 
   def frontend_properties

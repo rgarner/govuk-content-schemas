@@ -77,17 +77,6 @@ RSpec.describe GovukContentSchemas::FrontendSchemaGenerator do
     )
   end
 
-  it "adds base_path as a required string property" do
-    expect(generated.schema['properties']).to include(
-      "base_path" => {
-        "$ref" => "#/definitions/absolute_path"
-      }
-    )
-    expect(generated.schema["required"]).to include(
-      "base_path"
-    )
-  end
-
   it "injects a frontend_links definition" do
     expect(generated.schema['definitions']).to include('frontend_links')
     expected_embed = frontend_links_definition.schema.reject { |k| k == '$schema' }
