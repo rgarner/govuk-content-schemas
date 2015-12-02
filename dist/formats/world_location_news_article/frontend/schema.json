@@ -169,7 +169,7 @@
             "title": {
               "type": "string"
             },
-            "slug": {
+            "analytics_identifier": {
               "type": "string"
             },
             "is_current": {
