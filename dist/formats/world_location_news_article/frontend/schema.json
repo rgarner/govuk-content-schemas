@@ -60,8 +60,7 @@
         "body",
         "first_public_at",
         "is_political",
-        "is_historic",
-        "government_name"
+        "government"
       ],
       "properties": {
         "body": {
@@ -163,11 +162,20 @@
         "is_political": {
           "type": "boolean"
         },
-        "is_historic": {
-          "type": "boolean"
-        },
-        "government_name": {
-          "type": "string"
+        "government": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "is_current": {
+              "type": "boolean"
+            }
+          }
         }
       }
     },
