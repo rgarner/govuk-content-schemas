@@ -266,6 +266,9 @@
           "$ref": "#/definitions/countryside_stewardship_grant_metadata"
         },
         {
+          "$ref": "#/definitions/dfid_research_output_metadata"
+        },
+        {
           "$ref": "#/definitions/drug_safety_update_metadata"
         },
         {
@@ -621,6 +624,21 @@
               "more-than-50-actual-costs"
             ]
           }
+        }
+      }
+    },
+    "dfid_research_output_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bulk_published": {
+          "type": "boolean"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "dfid_research_output"
+          ]
         }
       }
     },

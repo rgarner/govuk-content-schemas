@@ -36,6 +36,7 @@
         { "$ref": "#/definitions/asylum_support_decision_metadata" },
         { "$ref": "#/definitions/cma_case_metadata" },
         { "$ref": "#/definitions/countryside_stewardship_grant_metadata" },
+        { "$ref": "#/definitions/dfid_research_output_metadata" },
         { "$ref": "#/definitions/drug_safety_update_metadata" },
         { "$ref": "#/definitions/employment_appeal_tribunal_decision_metadata" },
         { "$ref": "#/definitions/employment_tribunal_decision_metadata" },
@@ -368,6 +369,21 @@
               "more-than-50-actual-costs"
             ]
           }
+        }
+      }
+    },
+    "dfid_research_output_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bulk_published": {
+          "type": "boolean"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "dfid_research_output"
+          ]
         }
       }
     },
